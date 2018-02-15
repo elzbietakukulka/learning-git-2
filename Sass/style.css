@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Joti+One|Raleway');
+
+body {
+	margin: auto 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+	background-image: url(https://i.ytimg.com/vi/RF3UVg7d-8A/maxresdefault.jpg);
+	background-size: cover;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	max-width: 1200px;
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+}
+
+h1, h3, p {
+	padding: 20px 0;
+}
+
+h1 {
+	font-size: 60px;
+}
