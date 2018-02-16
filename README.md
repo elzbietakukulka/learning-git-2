@@ -1,1 +1,1 @@
-# learning-git-2
+https://lupolupok.github.io/learning-git-2/
