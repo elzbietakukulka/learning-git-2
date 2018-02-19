@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Joti+One|Raleway");
+body {
+  margin: auto 0;
+}
+
+.container {
+  background-image: url(https://cdn1.umg3.net/89/files/2014/06/12-lana-del-ray-just-ride-950x392.jpg);
+  background-size: cover;
+}
+
+.test {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=style.prefixed.css.map */
