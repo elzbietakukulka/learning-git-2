@@ -18,11 +18,12 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     
     "watch": "npm-run-all build -p watch:*",
-    "watch:sassprefixer": "npm-run-all sass autoprefixer",
-    "watch:sass": "node-sass --output-style expanded --source-map true -o css sass ",
-    "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.css css/style.css",
+    "watch:sassprefixer":"onchange sass/style.scss -- npm-run-all watch-dev:*",
+    "watch-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
+    "watch-dev:autoprefixer": "autoprefixer-cli css/style.css",
     "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files css/*.css *.html"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lupolupok/nauka-gita.git"
